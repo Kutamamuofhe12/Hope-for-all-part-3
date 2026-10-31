@@ -39,19 +39,6 @@ Share the deployed website through appropriate social channels and obtain genuin
 - Google Search Central SEO Starter Guide: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 - W3C WAI forms guidance: https://www.w3.org/WAI/tutorials/forms/
 
-## Before submission
-Review lecturer feedback from Part 2 and record any further corrections here. Test all links, forms, mobile layout and live deployment. GitHub commits should reflect actual work.
-
-## Part 2 marking feedback addressed (evidence-based)
-The Part 2 rubric screenshots supplied after the initial Part 3 build show **1/10** for implementing feedback, **10/10** for the external stylesheet, **5/5** for README, **5/5** for changelog, and **1/5** for references. The project therefore retains external CSS and strengthens the documentation below. The lecturer's detailed written comments were not supplied; these changes respond to the visible scoring criteria rather than claiming specific undocumented corrections.
-
-| Feedback area | Part 3 action | Evidence |
-| --- | --- | --- |
-| Feedback not sufficiently addressed | Record concrete changes and why they were made, including page and feature locations | This section and Part 3 changelog |
-| References need improvement | Identify relevant sources, their roles and access date; avoid claiming external assets are original | References and attribution below |
-| Existing external CSS performed well | Keep external stylesheets and use a new `css/style.css` for improvements | HTML stylesheet links and `css/` |
-| README and changelog scored well | Preserve setup instructions and add explicit verification/deployment caveats | This README |
-
 ### Reference and attribution details
 Accessed 31 October 2026. These are documentation sources used as technical guidance; they are not evidence of the foundation's real-world activities or contact details.
 
