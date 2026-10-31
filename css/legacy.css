@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Button Styling */
+.join-btn {
+    display: inline-block;
+    background-color: #ff6600; /* Eye-catching orange */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.join-btn:hover {
+    background-color: #cc5500; /* Darker orange on hover */
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo img {
+    height: 200px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* General Section Styling */
+section {
+    width: 80%;
+    margin: 0 auto; /* Centers the section horizontally */
+    text-align: center; /* Centers the headings */
+}
+
+/* Who We Are Section */
+.who-we-are {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.who-we-are h2 {
+    text-align: center;
+}
+
+.who-we-are p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Image Gallery */
+.who-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers images horizontally */
+    gap: 15px; /* Adds space between images */
+    margin-top: 20px;
+}
+
+.who-images img {
+    width: 20%; /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.who-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Services Section */
+.services {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto; /* Centers the section */
+    padding: 20px;
+    text-align: center; /* Centers the heading */
+}
+
+.service {
+    text-align: left; /* Aligns service descriptions to the left */
+    max-width: 800px;
+    margin: 20px auto; /* Ensures content isn't stretched */
+}
+
+/* Call to Action Section */
+.cta {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center; /* Centers the title */
+}
+
+.cta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cta ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: black;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Content Section */
+.content {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* Image Gallery - Adjusted to align images next to each other */
+.who-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.who-images img {
+    width: 15%; /* Adjust width for better spacing */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px; /* Space between images */
+}
+
+.who-images img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Membership Page Styles */
+/* General Section Styling */
+.get-involved {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9fafc;
+}
+
+.get-involved h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1d3557;
+}
+
+.get-involved p {
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* Flexbox layout for forms */
+.form-wrapper {
+    display: flex;
+    gap: 40px;   /* space between the two forms */
+    justify-content: center;
+    flex-wrap: wrap; /* stack on smaller screens */
+}
+
+/* Card Styling */
+.form-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex: 1 1 400px; /* min width */
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Headings */
+.form-card h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+/* Form Inputs */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: none;
+}
+
+/* Buttons */
+.submit-btn {
+    background: #0077b6;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #005f87;
+}
+
+/* Responsive for mobile */
+@media (max-width: 900px) {
+    .form-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Thank You Page Styles */
+.thank-you {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.thank-you h2 {
+    font-size: 2.5em;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.thank-you p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.thank-you a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.thank-you a:hover {
+    color: #cc5500;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; /* Aligns the items to the left */
+}
+
+.social-media-item {
+    display: flex;
+    align-items: center;
+}
+
+.social-logo {
+    width: 50px; /* Reduced size */
+    height: 50px; /* Reduced size */
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}

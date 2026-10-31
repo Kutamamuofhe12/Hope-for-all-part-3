@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved | Hope For All Foundation</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Volunteer, enquire about sponsorship and support Hope For All Foundation.">
+<meta name="keywords" content="Hope For All Foundation, community support, charity, volunteering, South Africa">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img loading="lazy" src="WEDE logo.png" alt="Hope For All Foundation Logo">
+        </div>
+        <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="get%20involved.html">Get Involved</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="get-involved">
+    <h1>Get Involved</h1>
+    <p>You can make a difference! Become a volunteer or support our mission with a donation.</p>
+    
+    <div class="form-wrapper">
+        <!-- Volunteer Form -->
+        <div class="form-card">
+            <h2>🤝 Volunteer with Us</h2>
+            <form action="mailto:info@hfa.org" enctype="text/plain" method="post" class="volunteer-form" data-mail-form data-subject="Volunteer application">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="skills">Skills / Interests:</label>
+                    <textarea id="skills" name="skills" rows="4" placeholder="Tell us how you’d like to help..." required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Availability</legend>
+                    <label for="availability">When are you available?</label>
+                    <select id="availability" name="availability" required>
+                        <option value="weekdays">Weekdays</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="both">Both</option>
+                    </select>
+                </fieldset>
+
+                <p class="form-status" role="status" aria-live="polite"></p><div class="form-actions">
+                    <button type="submit" class="submit-btn">Submit Volunteer Application</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Donate Form -->
+        <div class="form-card">
+            <h2>💙 Enquire About Donating</h2><p>No payment is collected on this demo website.</p>
+            <form action="mailto:info@hfa.org" enctype="text/plain" method="post" class="donate-form" data-mail-form data-subject="Donation enquiry">
+                <fieldset>
+                    <legend>Donor Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Donation Details</legend>
+                    <label for="amount">Donation Amount (ZAR):</label>
+                    <input type="number" min="1" id="amount" name="amount" placeholder="Enter amount" required>
+
+                    <label for="donation-type">Donation Type:</label>
+                    <select id="donation-type" name="donation-type" required>
+                        <option value="once-off">One-time Donation</option>
+                        <option value="monthly">Monthly Donation</option>
+                    </select>
+
+                    <label for="payment-method">Preferred payment method (enquiry only):</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="bank-transfer">Bank Transfer</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                </fieldset>
+
+                <p class="form-status" role="status" aria-live="polite"></p><div class="form-actions">
+                    <button type="submit" class="submit-btn">Prepare Donation Enquiry</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+ <footer>
+        <p>&copy; 2026 Hope For All Foundation. All rights reserved.</p>
+    </footer>
+<script src="script.js" defer></script>
+</body>
+</html>
+
